@@ -18,6 +18,11 @@
             key-positions = <10 11>;
             bindings = <&kp TAB>;
         };
+
+        shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <20 21>;
+        };
     };
 
     keymap {
