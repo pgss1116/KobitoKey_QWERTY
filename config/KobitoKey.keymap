@@ -1,6 +1,7 @@
 #include <input/processors.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     combos {
@@ -24,7 +25,7 @@
 
         default_layer {
             bindings = <
-&kp Q   &kp W   &kp E     &kp R        &kp T      &kp Y      &kp U          &kp I      &kp O    &kp P
+&kp Q   &kp W   &kp E     &kp R        &kp T      &kp Y      &kp U          &kp I      &kp O    &lt 4 P
 &kp A   &kp S   &lt 2 D   &lt 1 F      &kp G      &kp H      &lt 1 J        &lt 2 K    &kp L    &kp SEMI
 &kp Z   &kp X   &kp C     &kp V        &kp B      &kp N      &kp M          &kp COMMA  &kp DOT  &kp APOS
 &trans  &trans  &kp LCMD  &lt 2 SPACE  &kp LCTRL  &kp ENTER  &kp BACKSPACE  &kp RSHFT  &trans   &trans
@@ -63,10 +64,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
             >;
         };
 
