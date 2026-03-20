@@ -60,19 +60,19 @@
         layer3 {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB5  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mkp MB4  &mkp MB5  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&trans            &trans      &trans      &trans      &trans      &trans      &kp AT_SIGN           &kp LBKT        &kp RBKT       &kp EQUAL
-&kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)            &kp LS(N8)      &kp LS(N9)     &kp MINUS
-&trans            &trans      &trans      &trans      &trans      &trans      &kp NON_US_BACKSLASH  &kp UNDERSCORE  &kp SEMICOLON  &kp COLON
-&trans            &trans      &trans      &trans      &trans      &trans      &trans                &trans          &trans         &trans
+&trans            &trans      &trans      &trans      &trans      &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp EQUAL
+&kp LS(NUMBER_1)  &kp LS(N2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp LS(N7)            &kp LS(N8)         &kp LS(N9)     &kp MINUS
+&trans            &trans      &trans      &trans      &trans      &trans      &kp NON_US_BACKSLASH  &kp UNDERSCORE     &kp SEMICOLON  &kp COLON
+&trans            &trans      &trans      &trans      &trans      &kp GRAVE   &trans                &trans             &trans         &trans
             >;
         };
 
